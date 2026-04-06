@@ -193,11 +193,11 @@ section {
 }
 
 .about-profile {
-  width: 760px;
-  height: 480px;
+  width: 380px;
+  height: 380px;
   max-width: 100%;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 50%;
   display: block;
   margin: 0.35rem auto 0.85rem;
   border: 4px solid var(--white);
@@ -420,8 +420,8 @@ section {
   }
 
   .about-profile {
-    width: 580px;
-    height: 390px;
+    width: 280px;
+    height: 280px;
     max-width: 100%;
   }
 
