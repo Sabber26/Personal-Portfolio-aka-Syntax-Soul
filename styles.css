@@ -193,8 +193,8 @@ section {
 }
 
 .about-profile {
-  width: 840px;
-  height: 530px;
+  width: 760px;
+  height: 480px;
   max-width: 100%;
   object-fit: cover;
   border-radius: 12px;
@@ -420,8 +420,8 @@ section {
   }
 
   .about-profile {
-    width: 660px;
-    height: 440px;
+    width: 580px;
+    height: 390px;
     max-width: 100%;
   }
 
