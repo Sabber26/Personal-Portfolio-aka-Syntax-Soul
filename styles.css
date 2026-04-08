@@ -117,11 +117,11 @@ body {
 }
 
 .hero-subtitle {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin-bottom: 2rem;
   opacity: 0.95;
   animation: slideInUp 0.8s ease 0.2s both;
-  font-weight: 300;
+  font-weight: 600;
   letter-spacing: 0.5px;
 }
 
