@@ -13,6 +13,7 @@
   --light-bg: #f9fafb;
   --white: #ffffff;
   --border-color: #e5e7eb;
+  --navbar-height: 76px;
 }
 
 html {
@@ -24,6 +25,7 @@ body {
   color: var(--text-color);
   line-height: 1.6;
   background-color: var(--white);
+  padding-top: var(--navbar-height);
 }
 
 .container {
@@ -36,8 +38,11 @@ body {
 .navbar {
   background-color: var(--white);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
   z-index: 100;
 }
 
@@ -160,7 +165,7 @@ body {
 }
 
 section {
-  scroll-margin-top: 80px;
+  scroll-margin-top: calc(var(--navbar-height) + 10px);
 }
 
 /* About Section */
@@ -399,6 +404,10 @@ section {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  :root {
+    --navbar-height: 112px;
+  }
+
   .nav-links {
     gap: 1rem;
   }
